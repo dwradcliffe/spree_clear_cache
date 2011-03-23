@@ -1,0 +1,7 @@
+<h1>Cache Settings</h1>
+
+<%= form_tag admin_clear_cache_path, :method => :post do %>
+  <input type="submit" value="Clear cache now!" />
+<% end %>
+
+<p>Note: This may take a minute to process. This will clear the cache and restart the app.</p>
